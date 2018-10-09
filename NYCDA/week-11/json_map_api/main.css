@@ -1,0 +1,114 @@
+/* * {
+    box-sizing: border-box;
+  } */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #333;
+    background-color: #eee;
+    height: 100%; 
+    margin: 0; 
+    padding: 0 
+}
+  
+p {
+    padding: 0 2.5rem 2.5rem;
+    margin: 0;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    color: #666;
+    background: #F6F6F6;
+    height: 100%;
+}
+
+.card {
+    background: white;
+    padding: 5px;
+    height: auto;
+    /* width: 500px; */
+    box-shadow: 2px 4px 25px rgb(27, 4, 4);
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);  
+}
+
+#mapDiv { 
+    height: 50%; 
+}
+
+#main-container {
+    float: right;
+    width: 502px;
+    margin: 30px auto;
+    padding: 0;
+  }
+
+#flag-container {
+    float: left;
+    height: 252px;
+    width: 502px;
+    background-color: #fff;
+    border: 15px solid rgb(32, 13, 28);
+    box-shadow: 2px 4px 25px rgb(27, 4, 4);
+    border-radius: 5px;
+  }
+
+#flag-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+#info-container select {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    min-width: 100%;
+    color: #333;
+    font-size: 15px;
+    font-weight: 900;
+    text-align-last: center;
+  }
+
+#info-container p {
+    padding: 0 10px;
+    font-weight: 600;
+  }
+
+#info-container p span {
+    font-weight: normal;
+  }
+    
+@media screen and (max-width: 768px) {
+    body { 
+        font-size: 12px; 
+    }
+
+    #main-container { 
+        width: 342px; 
+    }  
+
+    #flag-container { 
+        height: 172px; 
+    }  
+
+    #info-container select { 
+        font-size: 12px; font-weight: 600; 
+    }
+}
+
+
+
+
+
+  
+ 
+
+  
+ 
+ 
