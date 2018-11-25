@@ -1,0 +1,9 @@
+[submodule "angelsblog/themes/dream-plus"]
+	path = angelsblog/themes/dream-plus
+	url = https://github.com/UtkarshVerma/hugo-dream-plus
+[submodule "myblog/themes/dream-plus"]
+	path = myblog/themes/dream-plus
+	url = https://github.com/UtkarshVerma/hugo-dream-plus
+[submodule "dreamPlusBlog/themes/dream-plus"]
+	path = dreamPlusBlog/themes/dream-plus
+	url = https://github.com/UtkarshVerma/hugo-dream-plus
