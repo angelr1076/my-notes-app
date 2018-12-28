@@ -1,6 +1,6 @@
 # my-notes-app
 Notes app from Andrew Mead's Modern JS course
 
-![Settings Window]()
+![Settings Window](/images/page1.png)
 
-![Settings Window]()
+![Settings Window](/images/page2.png)
