@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angel Web Dev</title>
+    <link>/</link>
+    <description>Recent content on Angel Web Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jun 2018 10:45:07 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I Made It Here</title>
+      <link>/post/first-post/</link>
+      <pubDate>Wed, 13 Jun 2018 10:45:07 -0400</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description>Here I Am Welcome to my first post. I&#39;m excited that I can share my story with you. In less than a month, I&#39;ll be diving headfirst into a intensive programming bootcamp and I plan on taking time out to chronicle my experience.
+ Fear of the unknown - image courtesy of Unsplash
+I&#39;ve been dabbling with code for a little over a year and, yes, I do feel that I&#39;ve learned a lot so far, but there are also some things I feel I&#39;m lacking in, too.</description>
+    </item>
+    
+  </channel>
+</rss>

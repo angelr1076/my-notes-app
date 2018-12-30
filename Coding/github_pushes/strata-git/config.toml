@@ -1,0 +1,154 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Angel Web Dev"
+theme = "hugo-strata-theme"
+disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Angel Rodriguez"
+	description = "A simple interface displaying my projects and periodic blog posts"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = true
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "bekandme.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "Full-stack web developer with a passion for Christ, coding, blogging and cooking."
+		# The icons will be shown if you enter your username
+		twitter = "AngelRoddy7"
+		github = "angelr1076"
+		gitlab = ""
+		dribbble = ""
+		facebook = "Angel.L.Rod"
+		googleplus = ""
+		medium = "@angelr1076"
+		flickr = ""
+		linkedin = "angelrodriguezlead"
+
+		copyright = [
+			"&copy; Angel Rodriguez",
+			"Design: [HTML5 UP](//html5up.net)",
+			"Blog Images: [Unsplash](//unsplash.com/)"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "Hi, my name's Angel and welcome to my site! Thanks so much for stopping by!"
+		content = "Check out my work and drop me a message if you have any questions. I would love to hear from you!"
+
+
+	[params.portfolio]
+		hide  = false
+		title = "My Projects"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+
+
+		[[params.portfolio.gallery]]
+			image = "fulls/jsclock.png"
+			thumb = "thumbs/jsclock.png"
+			title = "<a href='https://angelr1076.github.io/jsclock/'>JS Realtime Clock.</a>"
+			description = "A live action clock made with JS."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/color.jpg"
+			thumb = "thumbs/color.jpg"
+			title = "<a href='https://angelr1076.github.io/newColorGame/'>Color Game.</a>"
+			description = "Guess the color by it's primary RGB attribute."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/yelpcamp.jpg"
+			thumb = "thumbs/yelpcamp.jpg"
+			title = "<a href='https://peaceful-spire-99261.herokuapp.com/'>Camp-Sites.</a>"
+			description = "A camp-site clone created in Node.js."
+		[[params.portfolio.gallery]]
+			image = "fulls/flexpanels.png"
+			thumb = "thumbs/flexpanels.png"
+			title = "<a href='https://angelr1076.github.io/flexpanels/'>Flexpanels.</a>"
+			description = "Flex image panels with JS."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/weather.jpg"
+			thumb = "thumbs/weather.jpg"
+			title = "<a href='https://fcc-weather-app.netlify.com/'>Weather App</a>"
+			description = "Uses the OpenWeatherApp API. Background changes depending on temp."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/bible.jpg"
+			thumb = "thumbs/bible.jpg"
+			title = "<a href='https://angel-bible-verses.netlify.com/'>Bible Verses.</a>"
+			description = "Generates bible verses with an option to 'tweet'."
+
+	[params.recentposts]
+		hide  = false
+		title = "Recent blog posts"
+
+	[params.contact]
+		hide  = false
+		title = "Get In Touch"
+		content = "Any suggestions, or if you simply have comments about the site, blog or my portfolio, just fill out your info below and I'll get back to you soon."
+
+		# This can be exact coordinates or a searchable address in google maps
+		gmaps_address = "39.7889055,-120.5443524"
+		address = [
+			"Located in Philadelphia, PA",
+			# "Nashville, TN 00000",
+			# "United States"
+		]
+		# phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "angelr1076@gmail.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 10
+
+[[menu.main]]
+	name = "Blog"
+	url  = "/post"
+	weight = 0
+
+[[menu.main]]
+	name = "My Alt Site"
+	url  = "https://angelroddy.com/"
+	weight = 0

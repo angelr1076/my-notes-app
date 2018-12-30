@@ -7,3 +7,12 @@
 [submodule "dreamPlusBlog/themes/dream-plus"]
 	path = dreamPlusBlog/themes/dream-plus
 	url = https://github.com/UtkarshVerma/hugo-dream-plus
+[submodule "dreamPlus_Blog/themes/dream-plus"]
+	path = dreamPlus_Blog/themes/dream-plus
+	url = https://github.com/UtkarshVerma/hugo-dream-plus
+[submodule "new_blog/themes/dream-plus"]
+	path = new_blog/themes/dream-plus
+	url = https://github.com/UtkarshVerma/hugo-dream-plus
+[submodule "dreamPlus/themes/dream-plus"]
+	path = dreamPlus/themes/dream-plus
+	url = https://github.com/UtkarshVerma/hugo-dream-plus
